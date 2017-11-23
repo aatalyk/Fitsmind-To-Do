@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		605AC7E352C2727927BD3D69 /* Pods_Fitsmind_To_Do.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B265673E9444212A48F473E3 /* Pods_Fitsmind_To_Do.framework */; };
+		722455231FC5C898002D6276 /* NoteSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722455221FC5C898002D6276 /* NoteSpec.swift */; };
+		72321EBC1FC62216009FFBF2 /* KIF+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722455331FC6040D002D6276 /* KIF+Extensions.swift */; };
+		7247ABEF1FC688D9005A2168 /* HomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7247ABEE1FC688D9005A2168 /* HomeTests.swift */; };
+		7247ABF11FC6928A005A2168 /* NewNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7247ABF01FC6928A005A2168 /* NewNoteTests.swift */; };
+		724833C51FC5308A007EEFF9 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724833C41FC5308A007EEFF9 /* MenuView.swift */; };
+		724833C71FC5711D007EEFF9 /* PresentNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724833C61FC5711D007EEFF9 /* PresentNoteView.swift */; };
+		724833CB1FC579CC007EEFF9 /* PresentNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724833CA1FC579CC007EEFF9 /* PresentNoteViewController.swift */; };
+		72E6E45A1FC4833500E73FCE /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E6E4591FC4833500E73FCE /* DatePickerView.swift */; };
+		72F28F401FC43B4F00FAA4BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F28F3F1FC43B4F00FAA4BF /* AppDelegate.swift */; };
+		72F28F451FC43B4F00FAA4BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72F28F431FC43B4F00FAA4BF /* Main.storyboard */; };
+		72F28F471FC43B4F00FAA4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F28F461FC43B4F00FAA4BF /* Assets.xcassets */; };
+		72F28F4A1FC43B4F00FAA4BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72F28F481FC43B4F00FAA4BF /* LaunchScreen.storyboard */; };
+		72F28F6E1FC43B5F00FAA4BF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 72F28F6D1FC43B5F00FAA4BF /* Podfile */; };
+		72F28F751FC43C1100FAA4BF /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F28F6F1FC43C1100FAA4BF /* BaseView.swift */; };
+		72F28F761FC43C1100FAA4BF /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F28F701FC43C1100FAA4BF /* Helpers.swift */; };
+		72F28F771FC43C1100FAA4BF /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F28F711FC43C1100FAA4BF /* Note.swift */; };
+		72F28F781FC43C1100FAA4BF /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F28F721FC43C1100FAA4BF /* NotesView.swift */; };
+		72F28F791FC43C1100FAA4BF /* NewNoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F28F731FC43C1100FAA4BF /* NewNoteViewModel.swift */; };
+		72F28F7C1FC4405800FAA4BF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F28F7B1FC4405800FAA4BF /* Extensions.swift */; };
+		72F28F7E1FC4428500FAA4BF /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F28F7D1FC4428500FAA4BF /* NotesViewModel.swift */; };
+		72F28F811FC4517600FAA4BF /* NewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F28F801FC4517600FAA4BF /* NewNoteViewController.swift */; };
+		72F28F831FC4519C00FAA4BF /* NewNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F28F821FC4519C00FAA4BF /* NewNoteView.swift */; };
+		72F28F851FC4585C00FAA4BF /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F28F841FC4585C00FAA4BF /* NotesViewController.swift */; };
+		72F28F871FC45A9600FAA4BF /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F28F861FC45A9600FAA4BF /* NoteTableViewCell.swift */; };
+		F8E6705D103AC6676D371F4A /* Pods_Fitsmind_To_DoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D4FF0F432C530135606ABF /* Pods_Fitsmind_To_DoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7224551D1FC5C87B002D6276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72F28F341FC43B4F00FAA4BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72F28F3B1FC43B4F00FAA4BF;
+			remoteInfo = "Fitsmind To-Do";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A89210364ACEC04CC5322AB /* Pods-Fitsmind To-Do.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitsmind To-Do.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fitsmind To-Do/Pods-Fitsmind To-Do.release.xcconfig"; sourceTree = "<group>"; };
+		722455181FC5C87A002D6276 /* Fitsmind To-DoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fitsmind To-DoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7224551C1FC5C87B002D6276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		722455221FC5C898002D6276 /* NoteSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteSpec.swift; sourceTree = "<group>"; };
+		722455331FC6040D002D6276 /* KIF+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "KIF+Extensions.swift"; path = "../Fitsmind To-DoUITests/KIF+Extensions.swift"; sourceTree = "<group>"; };
+		7247ABEE1FC688D9005A2168 /* HomeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTests.swift; sourceTree = "<group>"; };
+		7247ABF01FC6928A005A2168 /* NewNoteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteTests.swift; sourceTree = "<group>"; };
+		724833C41FC5308A007EEFF9 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		724833C61FC5711D007EEFF9 /* PresentNoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentNoteView.swift; sourceTree = "<group>"; };
+		724833CA1FC579CC007EEFF9 /* PresentNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentNoteViewController.swift; sourceTree = "<group>"; };
+		72E6E4591FC4833500E73FCE /* DatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		72F28F3C1FC43B4F00FAA4BF /* Fitsmind To-Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitsmind To-Do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F28F3F1FC43B4F00FAA4BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72F28F441FC43B4F00FAA4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72F28F461FC43B4F00FAA4BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72F28F491FC43B4F00FAA4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72F28F4B1FC43B4F00FAA4BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F28F6D1FC43B5F00FAA4BF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		72F28F6F1FC43C1100FAA4BF /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		72F28F701FC43C1100FAA4BF /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		72F28F711FC43C1100FAA4BF /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		72F28F721FC43C1100FAA4BF /* NotesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		72F28F731FC43C1100FAA4BF /* NewNoteViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteViewModel.swift; sourceTree = "<group>"; };
+		72F28F7B1FC4405800FAA4BF /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		72F28F7D1FC4428500FAA4BF /* NotesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
+		72F28F801FC4517600FAA4BF /* NewNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteViewController.swift; sourceTree = "<group>"; };
+		72F28F821FC4519C00FAA4BF /* NewNoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteView.swift; sourceTree = "<group>"; };
+		72F28F841FC4585C00FAA4BF /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		72F28F861FC45A9600FAA4BF /* NoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		7E028FE5F7D37C55A36B3952 /* Pods-Fitsmind To-Do.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitsmind To-Do.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fitsmind To-Do/Pods-Fitsmind To-Do.debug.xcconfig"; sourceTree = "<group>"; };
+		83ED9A85A0F16EDF99B9DF49 /* Pods_Fitsmind_To_DoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fitsmind_To_DoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9552B040BFF56AC51B55B08C /* Pods-Fitsmind To-DoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitsmind To-DoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fitsmind To-DoTests/Pods-Fitsmind To-DoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A321BBD4AF23B665DB3939D8 /* Pods-Fitsmind To-DoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitsmind To-DoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fitsmind To-DoUITests/Pods-Fitsmind To-DoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B265673E9444212A48F473E3 /* Pods_Fitsmind_To_Do.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fitsmind_To_Do.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D4FF0F432C530135606ABF /* Pods_Fitsmind_To_DoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fitsmind_To_DoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB40A809208235F5C3D2756 /* Pods-Fitsmind To-DoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitsmind To-DoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fitsmind To-DoTests/Pods-Fitsmind To-DoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E01524289C27C90F352ADA78 /* Pods-Fitsmind To-DoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitsmind To-DoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fitsmind To-DoUITests/Pods-Fitsmind To-DoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		722455151FC5C87A002D6276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E6705D103AC6676D371F4A /* Pods_Fitsmind_To_DoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F28F391FC43B4F00FAA4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605AC7E352C2727927BD3D69 /* Pods_Fitsmind_To_Do.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		722455191FC5C87B002D6276 /* Fitsmind To-DoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7224551C1FC5C87B002D6276 /* Info.plist */,
+				722455221FC5C898002D6276 /* NoteSpec.swift */,
+				722455331FC6040D002D6276 /* KIF+Extensions.swift */,
+				7247ABEE1FC688D9005A2168 /* HomeTests.swift */,
+				7247ABF01FC6928A005A2168 /* NewNoteTests.swift */,
+			);
+			path = "Fitsmind To-DoTests";
+			sourceTree = "<group>";
+		};
+		72E6E4561FC47E7700E73FCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72F28F431FC43B4F00FAA4BF /* Main.storyboard */,
+				72F28F461FC43B4F00FAA4BF /* Assets.xcassets */,
+				72F28F481FC43B4F00FAA4BF /* LaunchScreen.storyboard */,
+				72F28F4B1FC43B4F00FAA4BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72E6E4571FC47E8900E73FCE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				72F28F7D1FC4428500FAA4BF /* NotesViewModel.swift */,
+				72F28F731FC43C1100FAA4BF /* NewNoteViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		72E6E4581FC47EA500E73FCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72F28F711FC43C1100FAA4BF /* Note.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		72F28F331FC43B4F00FAA4BF = {
+			isa = PBXGroup;
+			children = (
+				72F28F6D1FC43B5F00FAA4BF /* Podfile */,
+				72F28F3E1FC43B4F00FAA4BF /* Fitsmind To-Do */,
+				722455191FC5C87B002D6276 /* Fitsmind To-DoTests */,
+				72F28F3D1FC43B4F00FAA4BF /* Products */,
+				C847C498D62FAE07013C4CCA /* Pods */,
+				81B30853AF946D9B37418B53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72F28F3D1FC43B4F00FAA4BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72F28F3C1FC43B4F00FAA4BF /* Fitsmind To-Do.app */,
+				722455181FC5C87A002D6276 /* Fitsmind To-DoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72F28F3E1FC43B4F00FAA4BF /* Fitsmind To-Do */ = {
+			isa = PBXGroup;
+			children = (
+				72F28F701FC43C1100FAA4BF /* Helpers.swift */,
+				72F28F7B1FC4405800FAA4BF /* Extensions.swift */,
+				72F28F3F1FC43B4F00FAA4BF /* AppDelegate.swift */,
+				72E6E4581FC47EA500E73FCE /* Model */,
+				72F28F7F1FC4516500FAA4BF /* View */,
+				72E6E4571FC47E8900E73FCE /* ViewModel */,
+				72E6E4561FC47E7700E73FCE /* Supporting Files */,
+			);
+			path = "Fitsmind To-Do";
+			sourceTree = "<group>";
+		};
+		72F28F7F1FC4516500FAA4BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72F28F6F1FC43C1100FAA4BF /* BaseView.swift */,
+				724833C41FC5308A007EEFF9 /* MenuView.swift */,
+				72E6E4591FC4833500E73FCE /* DatePickerView.swift */,
+				72F28F821FC4519C00FAA4BF /* NewNoteView.swift */,
+				72F28F801FC4517600FAA4BF /* NewNoteViewController.swift */,
+				72F28F721FC43C1100FAA4BF /* NotesView.swift */,
+				72F28F861FC45A9600FAA4BF /* NoteTableViewCell.swift */,
+				72F28F841FC4585C00FAA4BF /* NotesViewController.swift */,
+				724833C61FC5711D007EEFF9 /* PresentNoteView.swift */,
+				724833CA1FC579CC007EEFF9 /* PresentNoteViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		81B30853AF946D9B37418B53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B265673E9444212A48F473E3 /* Pods_Fitsmind_To_Do.framework */,
+				B7D4FF0F432C530135606ABF /* Pods_Fitsmind_To_DoTests.framework */,
+				83ED9A85A0F16EDF99B9DF49 /* Pods_Fitsmind_To_DoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C847C498D62FAE07013C4CCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E028FE5F7D37C55A36B3952 /* Pods-Fitsmind To-Do.debug.xcconfig */,
+				0A89210364ACEC04CC5322AB /* Pods-Fitsmind To-Do.release.xcconfig */,
+				DBB40A809208235F5C3D2756 /* Pods-Fitsmind To-DoTests.debug.xcconfig */,
+				9552B040BFF56AC51B55B08C /* Pods-Fitsmind To-DoTests.release.xcconfig */,
+				A321BBD4AF23B665DB3939D8 /* Pods-Fitsmind To-DoUITests.debug.xcconfig */,
+				E01524289C27C90F352ADA78 /* Pods-Fitsmind To-DoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		722455171FC5C87A002D6276 /* Fitsmind To-DoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7224551F1FC5C87B002D6276 /* Build configuration list for PBXNativeTarget "Fitsmind To-DoTests" */;
+			buildPhases = (
+				9F66DB3CF829722182E84596 /* [CP] Check Pods Manifest.lock */,
+				722455141FC5C87A002D6276 /* Sources */,
+				722455151FC5C87A002D6276 /* Frameworks */,
+				722455161FC5C87A002D6276 /* Resources */,
+				438C8BCE7AECA2D8BD2CB8D3 /* [CP] Embed Pods Frameworks */,
+				FB148D87AB1F173A1185D0C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7224551E1FC5C87B002D6276 /* PBXTargetDependency */,
+			);
+			name = "Fitsmind To-DoTests";
+			productName = "Fitsmind To-DoTests";
+			productReference = 722455181FC5C87A002D6276 /* Fitsmind To-DoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72F28F3B1FC43B4F00FAA4BF /* Fitsmind To-Do */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F28F641FC43B4F00FAA4BF /* Build configuration list for PBXNativeTarget "Fitsmind To-Do" */;
+			buildPhases = (
+				38561025A0B69F1F371DD571 /* [CP] Check Pods Manifest.lock */,
+				72F28F381FC43B4F00FAA4BF /* Sources */,
+				72F28F391FC43B4F00FAA4BF /* Frameworks */,
+				72F28F3A1FC43B4F00FAA4BF /* Resources */,
+				85B481FAE4C907CE4D519965 /* [CP] Embed Pods Frameworks */,
+				CEB502957E706A590DF0ACB8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fitsmind To-Do";
+			productName = "Fitsmind To-Do";
+			productReference = 72F28F3C1FC43B4F00FAA4BF /* Fitsmind To-Do.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72F28F341FC43B4F00FAA4BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Atalyk Akash";
+				TargetAttributes = {
+					722455171FC5C87A002D6276 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 72F28F3B1FC43B4F00FAA4BF;
+					};
+					72F28F3B1FC43B4F00FAA4BF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 72F28F371FC43B4F00FAA4BF /* Build configuration list for PBXProject "Fitsmind To-Do" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72F28F331FC43B4F00FAA4BF;
+			productRefGroup = 72F28F3D1FC43B4F00FAA4BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72F28F3B1FC43B4F00FAA4BF /* Fitsmind To-Do */,
+				722455171FC5C87A002D6276 /* Fitsmind To-DoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		722455161FC5C87A002D6276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F28F3A1FC43B4F00FAA4BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F28F4A1FC43B4F00FAA4BF /* LaunchScreen.storyboard in Resources */,
+				72F28F471FC43B4F00FAA4BF /* Assets.xcassets in Resources */,
+				72F28F6E1FC43B5F00FAA4BF /* Podfile in Resources */,
+				72F28F451FC43B4F00FAA4BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38561025A0B69F1F371DD571 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fitsmind To-Do-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		438C8BCE7AECA2D8BD2CB8D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fitsmind To-DoTests/Pods-Fitsmind To-DoTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KIF/KIF.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KIF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fitsmind To-DoTests/Pods-Fitsmind To-DoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85B481FAE4C907CE4D519965 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fitsmind To-Do/Pods-Fitsmind To-Do-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/EasyPeasy/EasyPeasy.framework",
+				"${BUILT_PRODUCTS_DIR}/KMPlaceholderTextView/KMPlaceholderTextView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyPeasy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KMPlaceholderTextView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fitsmind To-Do/Pods-Fitsmind To-Do-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F66DB3CF829722182E84596 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fitsmind To-DoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEB502957E706A590DF0ACB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fitsmind To-Do/Pods-Fitsmind To-Do-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB148D87AB1F173A1185D0C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fitsmind To-DoTests/Pods-Fitsmind To-DoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		722455141FC5C87A002D6276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7247ABF11FC6928A005A2168 /* NewNoteTests.swift in Sources */,
+				722455231FC5C898002D6276 /* NoteSpec.swift in Sources */,
+				7247ABEF1FC688D9005A2168 /* HomeTests.swift in Sources */,
+				72321EBC1FC62216009FFBF2 /* KIF+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F28F381FC43B4F00FAA4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F28F791FC43C1100FAA4BF /* NewNoteViewModel.swift in Sources */,
+				72F28F7C1FC4405800FAA4BF /* Extensions.swift in Sources */,
+				724833C71FC5711D007EEFF9 /* PresentNoteView.swift in Sources */,
+				72F28F771FC43C1100FAA4BF /* Note.swift in Sources */,
+				72E6E45A1FC4833500E73FCE /* DatePickerView.swift in Sources */,
+				72F28F7E1FC4428500FAA4BF /* NotesViewModel.swift in Sources */,
+				72F28F871FC45A9600FAA4BF /* NoteTableViewCell.swift in Sources */,
+				72F28F751FC43C1100FAA4BF /* BaseView.swift in Sources */,
+				72F28F781FC43C1100FAA4BF /* NotesView.swift in Sources */,
+				72F28F851FC4585C00FAA4BF /* NotesViewController.swift in Sources */,
+				724833C51FC5308A007EEFF9 /* MenuView.swift in Sources */,
+				72F28F831FC4519C00FAA4BF /* NewNoteView.swift in Sources */,
+				72F28F811FC4517600FAA4BF /* NewNoteViewController.swift in Sources */,
+				72F28F401FC43B4F00FAA4BF /* AppDelegate.swift in Sources */,
+				724833CB1FC579CC007EEFF9 /* PresentNoteViewController.swift in Sources */,
+				72F28F761FC43C1100FAA4BF /* Helpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7224551E1FC5C87B002D6276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72F28F3B1FC43B4F00FAA4BF /* Fitsmind To-Do */;
+			targetProxy = 7224551D1FC5C87B002D6276 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72F28F431FC43B4F00FAA4BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72F28F441FC43B4F00FAA4BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72F28F481FC43B4F00FAA4BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72F28F491FC43B4F00FAA4BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		722455201FC5C87B002D6276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB40A809208235F5C3D2756 /* Pods-Fitsmind To-DoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fitsmind To-DoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aatalyk.fitsmind.Fitsmind-To-DoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitsmind To-Do.app/Fitsmind To-Do";
+			};
+			name = Debug;
+		};
+		722455211FC5C87B002D6276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9552B040BFF56AC51B55B08C /* Pods-Fitsmind To-DoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fitsmind To-DoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aatalyk.fitsmind.Fitsmind-To-DoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitsmind To-Do.app/Fitsmind To-Do";
+			};
+			name = Release;
+		};
+		72F28F621FC43B4F00FAA4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72F28F631FC43B4F00FAA4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72F28F651FC43B4F00FAA4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E028FE5F7D37C55A36B3952 /* Pods-Fitsmind To-Do.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "Fitsmind To-Do/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aatalyk.fitsmind.Fitsmind-To-Do";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		72F28F661FC43B4F00FAA4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A89210364ACEC04CC5322AB /* Pods-Fitsmind To-Do.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "Fitsmind To-Do/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aatalyk.fitsmind.Fitsmind-To-Do";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7224551F1FC5C87B002D6276 /* Build configuration list for PBXNativeTarget "Fitsmind To-DoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722455201FC5C87B002D6276 /* Debug */,
+				722455211FC5C87B002D6276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72F28F371FC43B4F00FAA4BF /* Build configuration list for PBXProject "Fitsmind To-Do" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F28F621FC43B4F00FAA4BF /* Debug */,
+				72F28F631FC43B4F00FAA4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72F28F641FC43B4F00FAA4BF /* Build configuration list for PBXNativeTarget "Fitsmind To-Do" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F28F651FC43B4F00FAA4BF /* Debug */,
+				72F28F661FC43B4F00FAA4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72F28F341FC43B4F00FAA4BF /* Project object */;
+}
